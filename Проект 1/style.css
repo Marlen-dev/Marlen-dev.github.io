@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #E0DEDE;
+}
+p {
+    color: cadetblue;
+    margin: 30px;
+}    
+h1 {
+    font-size: 60px;
+    color: darkviolet;
+}
+div {
+    width: 70%;
+    margin: auto ;
+    padding: 50px;
+    background-color: #CFF6CF;
+    box-shadow: 0 0 10px 1px grey;
+}
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    display: inline-block;
+    margin: 20px 0;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in;
+    
+}
+a:hover {
+    border-bottom-color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
